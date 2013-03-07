@@ -1,0 +1,60 @@
+body            { font-size: 10px; }
+.page           { page-break-after: always; }
+.page.last      { page-break-after: avoid; }
+.header         {
+                  position: relative;
+                  clear: both;
+                  top: 0px; left: 0px; text-align: center;
+                  height: 200px; width: 100%; }
+.header .name, .address, .contact-information { text-indent: -7000px; }
+.header img     {
+                  position: absolute;
+                  top: 0px; left: 0px;
+                  max-height: 200px; max-width: 100%; }
+.header         { display: block; }
+body            { position: relative;
+                  padding: 30px;
+                  margin: 0px;
+                  top: 0px; left: 0px;
+                  font-family: "Trajan Pro", Times; }
+.row            { position: relative; clear: both; width: 100%; }
+.group          { position: relative; clear: both; width: 100%; }
+.group h2       { font-weight: normal; }
+.group h2 span  {
+                  position: relative;
+                  color: white; background-color: black;
+                  padding: 5px; padding-top: 10px; }
+.seperator img  { position: relative; height: 30px; max-width: 100%; }
+.left           { position: relative; width: 50%; float: left; }
+.right          { position: relative; width: 49%; float: left; }
+.center-text    { text-align: center; }
+
+/* -- Skills -- */
+table.stylized  {
+                  position: relative;
+                  text-align: right;
+                  border-spacing: 5px;
+                  border: none;
+                  margin: 1em auto;
+                  width: 90%; }
+table.stylized caption { display: none; }
+table.stylized th { width: 100px; }
+  table.stylized td.color .hide { display: none; }*/
+.languages .ruby { background-color: rgb(255,157,157); }
+.languages .python { background-color: rgb(208,255,157); }
+.languages .html { background-color: rgb(245,255,157); }
+.languages .actionscript { background-color: rgb(157,219,255); }
+.languages .javascript { background-color: rgb(255,224,157); }
+.languages .jquery { background-color: rgb(46,90,171); }
+.languages .perl { background-color: rgb(214,214,214); }
+.languages .php { background-color: rgb(180,228,251); }
+
+/* -- Clients -- */
+  .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }*/
+.client-cloud .client { position: relative; display: inline; }
+.client-cloud .client span {
+                  font-size: 0.75em;
+                  margin-left: 0.5em; margin-right: 0.5em;
+                  color: rgb(200,200,200); }
+/* -- Misc -- */
+.content p      { font-size: 10px; }

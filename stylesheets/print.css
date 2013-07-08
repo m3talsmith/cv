@@ -6,11 +6,6 @@ body            { font-size: 10px; }
                   clear: both;
                   top: 0px; left: 0px; text-align: center;
                   height: 200px; width: 100%; }
-.header .name, .address, .contact-information { text-indent: -7000px; }
-.header img     {
-                  position: absolute;
-                  top: 0px; left: 0px;
-                  max-height: 200px; max-width: 100%; }
 .header         { display: block; }
 body            { position: relative;
                   padding: 30px;

@@ -17,7 +17,7 @@ body            { position: relative;
                   position: relative;
                   color: white; background-color: black;
                   padding: 5px; padding-top: 10px; }
-.seperator img  { position: relative; height: 30px; max-width: 100%; }
+.seperator img  { position: relative; min-height: 30px; max-width: 100%; }
 .left           { position: relative; width: 50%; float: left; }
 .right          { position: relative; width: 49%; float: left; }
 .center-text    { text-align: center; }

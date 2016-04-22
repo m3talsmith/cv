@@ -2,8 +2,10 @@
                   position: relative;
                   display: none;
                   clear: both;
-                  top: 0px; left: 0px; text-align: center;
-                  width: 100%; }
+                  top: 0px; left: 0px;
+                  text-align: center;
+                  width: 100%;
+                  margin-bottom: 1em; }
 .header.first   { display: block; }
 body            { position: relative;
                   padding: 30px;

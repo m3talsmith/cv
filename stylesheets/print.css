@@ -1,4 +1,4 @@
-body            { font-size: 10px; }
+body            { font-size: 14px; }
 .page           { page-break-after: always; }
 .page.last      { page-break-after: avoid; }
 .header         {
@@ -72,12 +72,12 @@ table.stylized th { width: 100px; }
 .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }
 .client-cloud .client { position: relative; display: inline-block; }
 .client-cloud .client span {
-                  font-size: 0.75em;
+                  font-size: 1em;
                   margin-left: 0.5em; margin-right: 0.5em;
                   color: rgb(200,200,200); }
 /* -- Misc -- */
 .content p      {
-                  font-size: 10px;
+                  font-size: 1em;
                   background-color: rgb(240,250,255) !important;
                   -webkit-print-color-adjust: exact;
                   padding: 10px; opacity: 0.8;

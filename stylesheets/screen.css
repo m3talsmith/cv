@@ -41,7 +41,7 @@ table.stylized td.color .hide { display: none; }
 .languages .actionscript { background-color: rgb(157,219,255); }
 .languages .javascript { background-color: rgb(255,224,157); }
 .languages .nodejs { background-color: rgb(33, 165, 33); }
-.languages .jquery { background-color: rgb(46,90,171); }
+.languages .golang { background-color: rgb(46,90,171); }
 .languages .perl { background-color: rgb(214,214,214); }
 .languages .php { background-color: rgb(180,228,251); }
 

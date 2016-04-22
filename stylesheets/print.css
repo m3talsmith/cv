@@ -17,7 +17,9 @@ body            { position: relative;
 .group h2       { font-weight: normal; }
 .group h2 span  {
                   position: relative;
-                  color: white; background-color: black;
+                  color: white;
+                  background-color: black !important;
+                  -webkit-print-color-adjust: exact;
                   padding: 5px; padding-top: 10px; }
 .seperator img  { position: relative; min-height: 30px; max-width: 100%; }
 .left           { position: relative; width: 50%; float: left; }
@@ -34,22 +36,51 @@ table.stylized  {
                   width: 90%; }
 table.stylized caption { display: none; }
 table.stylized th { width: 100px; }
-  table.stylized td.color .hide { display: none; }*/
-.languages .ruby { background-color: rgb(255,157,157); }
-.languages .python { background-color: rgb(208,255,157); }
-.languages .html { background-color: rgb(245,255,157); }
-.languages .actionscript { background-color: rgb(157,219,255); }
-.languages .javascript { background-color: rgb(255,224,157); }
-.languages .jquery { background-color: rgb(46,90,171); }
-.languages .perl { background-color: rgb(214,214,214); }
-.languages .php { background-color: rgb(180,228,251); }
+  table.stylized td.color .hide { display: inline-block; }
+.languages .color { padding-right: 1em; }
+.languages .ruby {
+                  background-color: rgb(255,157,157) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .python {
+                  background-color: rgb(208,255,157) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .html {
+                  background-color: rgb(245,255,157) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .actionscript {
+                  background-color: rgb(157,219,255) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .javascript {
+                  background-color: rgb(255,224,157) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .golang {
+                  background-color: rgb(46,90,171) !important;
+                  -webkit-print-color-adjust: exact;
+                  color: white; }
+.languages .nodejs {
+                  background-color: rgb(46,160,171) !important;
+                  -webkit-print-color-adjust: exact;
+                  color: white; }
+.languages .perl {
+                  background-color: rgb(214,214,214) !important;
+                  -webkit-print-color-adjust: exact; }
+.languages .php {
+                  background-color: rgb(180,228,251) !important;
+                  -webkit-print-color-adjust: exact; }
 
 /* -- Clients -- */
-  .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }*/
-.client-cloud .client { position: relative; display: inline; }
+.client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }
+.client-cloud .client { position: relative; display: inline-block; }
 .client-cloud .client span {
                   font-size: 0.75em;
                   margin-left: 0.5em; margin-right: 0.5em;
                   color: rgb(200,200,200); }
 /* -- Misc -- */
-.content p      { font-size: 10px; }
+.content p      {
+                  font-size: 10px;
+                  background-color: rgb(240,250,255) !important;
+                  -webkit-print-color-adjust: exact;
+                  padding: 10px; opacity: 0.8;
+                  border-radius: 5px;
+                  -moz-border-radius: 5px;
+                  -webkit-border-radius: 5px; }

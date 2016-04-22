@@ -69,7 +69,7 @@ table.stylized th { width: 100px; }
                   -webkit-print-color-adjust: exact; }
 
 /* -- Clients -- */
-.client-cloud { display: none; }
+.clients-briefly { display: none; }
 /*
 .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }
 .client-cloud .client { position: relative; display: inline-block; }

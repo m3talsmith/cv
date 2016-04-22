@@ -1,4 +1,4 @@
-body            { font-size: 14px; }
+body            { font-size: 10px; }
 .page           { page-break-after: always; }
 .page.last      { page-break-after: avoid; }
 .header         {

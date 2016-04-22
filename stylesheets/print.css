@@ -69,12 +69,14 @@ table.stylized th { width: 100px; }
                   -webkit-print-color-adjust: exact; }
 
 /* -- Clients -- */
+.client-cloud { display: none; }
+/*
 .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }
 .client-cloud .client { position: relative; display: inline-block; }
 .client-cloud .client span {
                   font-size: 10px;
                   margin-left: 0.5em; margin-right: 0.5em;
-                  color: rgb(200,200,200); }
+                  color: rgb(200,200,200); }*/
 /* -- Misc -- */
 .content p      {
                   font-size: 1em;

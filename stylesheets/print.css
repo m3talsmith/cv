@@ -72,7 +72,7 @@ table.stylized th { width: 100px; }
 .client-cloud   { padding: 10px; padding-left: 20px; padding-right: 20px; }
 .client-cloud .client { position: relative; display: inline-block; }
 .client-cloud .client span {
-                  font-size: 0.9em;
+                  font-size: 10px;
                   margin-left: 0.5em; margin-right: 0.5em;
                   color: rgb(200,200,200); }
 /* -- Misc -- */
